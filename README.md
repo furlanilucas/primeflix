@@ -1,6 +1,6 @@
 # PrimeFlix
 
-Um projeto feito em ReactJS que utiliza `useState`, `useEffect` e uma API externa para listar filmes que estão em cartaz.
+Um projeto feito em ReactJS que utiliza uma API externa para listar filmes que estão em cartaz.
 
 ## Índice
 
@@ -9,9 +9,7 @@ Um projeto feito em ReactJS que utiliza `useState`, `useEffect` e uma API extern
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Instalação](#instalação)
 - [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-
+- 
 ## Sobre
 
 **PrimeFlix** é uma aplicação web desenvolvida para fins de estudo e para compor o portfólio do autor. O projeto consome uma API externa para exibir filmes em cartaz. A interface é construída com ReactJS e faz uso de `useState` para gerenciamento de estado e `useEffect` para manipulação de efeitos colaterais, como chamadas de API. A proposta do projeto é voltada para estudos e construção de portfólio. Se precisar de mais alguma alteração, é só avisar!
@@ -20,7 +18,7 @@ Um projeto feito em ReactJS que utiliza `useState`, `useEffect` e uma API extern
 
 - [x] Listar filmes em cartaz
 - [x] Visualizar detalhes de cada filme
-- [x] Favoritar filmes (em desenvolvimento)
+- [x] Favoritar filmes 
 
 ## Tecnologias Utilizadas
 
