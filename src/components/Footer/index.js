@@ -6,7 +6,7 @@ function Footer() {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="footer">
-      <p>&copy; {currentYear} Nome da Sua Empresa. Todos os direitos reservados.</p>
+      <p>&copy; {currentYear} Lucsa Furlani. Todos os direitos reservados.</p>
     </footer>
   );
 }
