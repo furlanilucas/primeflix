@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import api from '../../services/api';
 import {Link} from 'react-router-dom'
+import Footer from '../../components/Footer';
 import './home.css';
 
 
@@ -32,19 +33,22 @@ function Home() {
     }
 
     return (
-        <div className='container'>
-            <div className='lista-filmes'> 
-                {filmes.map((filme) => {
-                    return (
-                        <article key={filme.id}>
-                            <strong>{filme.title}</strong>
-                            <img src={`http://image.tmdb.org/t/p/original/${filme.poster_path}`} alt={filme.title} />
-                            <Link to={`/filme/${filme.id}`}>Acessar</Link>
-                        </article>
-                    );
-                })}
+        <>
+            <div className='container'>
+                <div className='lista-filmes'> 
+                    {filmes.map((filme) => {
+                        return (
+                            <article key={filme.id}>
+                                <strong>{filme.title}</strong>
+                                <img src={`http://image.tmdb.org/t/p/original/${filme.poster_path}`} alt={filme.title} />
+                                <Link to={`/filme/${filme.id}`}>Acessar</Link>
+                            </article>
+                        );
+                    })}
+                </div>
             </div>
-        </div>
+            <Footer /> 
+        </>
     );
 }
 

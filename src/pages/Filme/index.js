@@ -3,6 +3,7 @@ import { useParams , useNavigate} from 'react-router-dom'
 import './filme-info.css';
 import api from '../../services/api';
 import { toast } from 'react-toastify';
+import Footer from '../../components/Footer';
 
 function Filme(){
   const { id } = useParams();
@@ -85,7 +86,7 @@ function voltar(){
         </button>
         <button onClick={voltar}>Voltar</button>
       </div>
-
+<Footer/>
     </div>
   )
 }
