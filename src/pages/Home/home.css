@@ -1,0 +1,59 @@
+.lista-filmes {
+    max-width: 1200px; /* Ajuste para maior largura, para suportar 3 colunas */
+    margin: 14px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.lista-filmes article {
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lista-filmes strong {
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 22px;
+    display: block;
+}
+
+.lista-filmes img {
+    width: 100%;
+    max-height: 240px; /* Ajuste a altura máxima das imagens */
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.lista-filmes a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 18px; /* Reduzi o tamanho da fonte para adequar ao novo layout */
+    background-color: #11CFEB;
+    text-decoration: none;
+    color: #FFF;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top: 10px; /* Espaçamento entre o conteúdo e o botão */
+    transition: background-color 0.3s;
+}
+
+.lista-filmes a:hover {
+    background-color: #0FAFCE; /* Cor de hover */
+}
