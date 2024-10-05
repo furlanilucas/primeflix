@@ -13,7 +13,7 @@ html, body {
   padding: 5px;
   background-color: #000000;
   color: white; 
-  position: relative; /* Alterado de 'fixed' para 'relative' */
+  position: relative; 
   bottom: 0; 
   left: 0; 
   right: 0; 
